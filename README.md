@@ -37,4 +37,6 @@ linha 56: exibe a função nextSequence possibilitando o início de uma rodada d
     *cria a variável randomNumber, atribuindo-lhe o resultado randômico do método Math.random, cuja função é sortear um número de 0 a 3, usado para selecionar uma cor do array buttonColours.
     *cria a variável randomChosenColour, cujo valor é o array buttonColours, que neste momento já possui o valor proveniente de randomNumber derivado do sorteio realizado pelo método Math.random.
     *adiciona ao array gamePattern via método push o valor de randomChosenColour.
-    *
+    *a seguir processa uma animação em cada botão cuja cor sorteada corresponde a um respectivo id de botão.
+    *reproduz um som atravéz chamando a função playSound, passando como argumento randomChosenColour, cuja cor corresponde ao respectivo arquivo de áudio.
+    
