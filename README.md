@@ -2,8 +2,8 @@ https://marcscob.github.io/simonGame/
 
 explicação do código linha a linha
 
-linha 1: declara a variável buttonColours que contém o Array contendo as 4 cores correspondentes aos id dos 4 botões do jogo
-linha 2: contém a var gamePattern culo valor é o array que recebe randomChosenColour proveniente da função nextSequence, que entre outras ações, realiza o sorteio entre as cores disponíveis no array buttonColours e realiza um push no array gamePattern
+linha 1: declara a variável buttonColours, um Array contendo as 4 cores correspondentes aos id dos 4 botões do jogo.
+linha 2: contém a var gamePattern culo valor é o array que recebe randomChosenColour proveniente da função nextSequence, que entre outras ações, realiza o sorteio entre as cores disponíveis no array buttonColours e realiza um push no array gamePattern.
 linha 3: contém a var userClickedPattern, cujo valor é userChosenColour proveniente da função anônima do listener dos botões, que entre outras ações realiza um push do atributo id do button clicado pelo usuário (userChosenColour).
 linha 4: declara a variável started, cujo valor se inicia como false. O valor de started será true quando o jogo é iniciado, seja via keypress ou clique no h2 de id start.
 linha 5: declara a var level, iniciado com valor 0. O level do jogador é incrementado a partit da função nextSequence a cada vez que uma fase é concluída com sucesso.
