@@ -30,3 +30,11 @@ linha 34: exibe a função checkAnswer, cujo argumento é currentLevel e realiza
         *aciona o método toggle do h2, fazendo com que seja exibido.
         *aciona o método setTimeout, removendo a classe 'game-over' do body em 200 milisegundos.
         *chama a função startOver, cuja ação consiste em resetar (zerar) a variável level, o array gamePattern e retornar a variável started para false.
+linha 56: exibe a função nextSequence possibilitando o início de uma rodada do jogo, cujas ações são as seguintes:
+    *reseta ou zera o array userClickedPattern.
+    *incrementa o nível somando 1 à variável level.
+    *seleciona o h1 de id level-title, modificando seu texto atravéz da propriedade innerHTML para que apresente a string concatenada Level seguida da variável level, que por sua vez tem como valor o resultado do incremento citado acima.
+    *cria a variável randomNumber, atribuindo-lhe o resultado randômico do método Math.random, cuja função é sortear um número de 0 a 3, usado para selecionar uma cor do array buttonColours.
+    *cria a variável randomChosenColour, cujo valor é o array buttonColours, que neste momento já possui o valor proveniente de randomNumber derivado do sorteio realizado pelo método Math.random.
+    *adiciona ao array gamePattern via método push o valor de randomChosenColour.
+    *
