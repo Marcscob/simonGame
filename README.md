@@ -3,7 +3,7 @@ https://marcscob.github.io/simonGame/
 explicação do código linha a linha
 
 linha 1: declara a variável buttonColours, um Array contendo as 4 cores correspondentes aos id dos 4 botões do jogo.
-linha 2: contém a var gamePattern culo valor é o array que recebe randomChosenColour proveniente da função nextSequence, que entre outras ações, realiza o sorteio entre as cores disponíveis no array buttonColours e realiza um push no array gamePattern.
+linha 2: contém a var gamePattern, cujo valor é o array que recebe randomChosenColour proveniente da função nextSequence, que entre outras ações, realiza o sorteio entre as cores disponíveis no array buttonColours e realiza um push no array gamePattern.
 linha 3: contém a var userClickedPattern, cujo valor é userChosenColour proveniente da função anônima do listener dos botões, que entre outras ações realiza um push do atributo id do button clicado pelo usuário (userChosenColour).
 linha 4: declara a variável started, cujo valor se inicia como false. O valor de started será true quando o jogo é iniciado, seja via keypress ou clique no h2 de id start.
 linha 5: declara a var level, iniciado com valor 0. O level do jogador é incrementado a partit da função nextSequence a cada vez que uma fase é concluída com sucesso.
@@ -39,8 +39,12 @@ linha 56: exibe a função nextSequence possibilitando o início de uma rodada d
     *adiciona ao array gamePattern via método push o valor de randomChosenColour.
     *a seguir processa uma animação em cada botão cuja cor sorteada corresponde a um respectivo id de botão.
     *reproduz um som atravéz chamando a função playSound, passando como argumento randomChosenColour, cuja cor corresponde ao respectivo arquivo de áudio.
+<<<<<<< HEAD
 linha 71: exibe a função animatePress cujo parâmetro é currentColour. É realizada a concatenação do símbolo do id com currentColour, que por sua vez recebe o valor usado como argumento nos lugares onde a função animatePress é chamada. A função animatePress executa as seguintes ações:
     *adiciona a classe css 'pressed' ao id da cor trazida por currentColour a fim de alterar a aparência do botão clicado.
     *executa um método setTimeout retirando a aplicação da classe 'pressed' via método removeClass em 100 milisegundos.
     
 
+=======
+    
+>>>>>>> 488a1286243d9926982e39d30bded0d7686dd77d
