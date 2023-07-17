@@ -39,4 +39,8 @@ linha 56: exibe a função nextSequence possibilitando o início de uma rodada d
     *adiciona ao array gamePattern via método push o valor de randomChosenColour.
     *a seguir processa uma animação em cada botão cuja cor sorteada corresponde a um respectivo id de botão.
     *reproduz um som atravéz chamando a função playSound, passando como argumento randomChosenColour, cuja cor corresponde ao respectivo arquivo de áudio.
+linha 71: exibe a função animatePress cujo parâmetro é currentColour. É realizada a concatenação do símbolo do id com currentColour, que por sua vez recebe o valor usado como argumento nos lugares onde a função animatePress é chamada. A função animatePress executa as seguintes ações:
+    *adiciona a classe css 'pressed' ao id da cor trazida por currentColour a fim de alterar a aparência do botão clicado.
+    *executa um método setTimeout retirando a aplicação da classe 'pressed' via método removeClass em 100 milisegundos.
     
+

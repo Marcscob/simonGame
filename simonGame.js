@@ -26,7 +26,7 @@ $(".btn").click(function () {
   userClickedPattern.push(userChosenColour);
 
   playSound(userChosenColour);
-  animatePress(userChosenColour);
+  animatePress(us erChosenColour);
 
   checkAnswer(userClickedPattern.length - 1);
 });
