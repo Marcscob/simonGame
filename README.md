@@ -42,3 +42,8 @@ linha 56: exibe a função nextSequence possibilitando o início de uma rodada d
 linha 71: exibe a função animatePress cujo parâmetro é currentColour. É realizada a concatenação do símbolo do id com currentColour, que por sua vez recebe o valor usado como argumento nos lugares onde a função animatePress é chamada. A função animatePress executa as seguintes ações:
     *adiciona a classe css 'pressed' ao id da cor trazida por currentColour a fim de alterar a aparência do botão clicado.
     *executa um método setTimeout retirando a aplicação da classe 'pressed' via método removeClass em 100 milisegundos.
+linha 78: exibe a função playSound, cujo parâmetro é "name". A função realiza as seguintes ações:
+    *atribui à variável audio, o valor do constructor new Audio, que cria e retorna um novo objeto do tipo "Audio", representando um elemento de áudio HTML. O constructor une o diretório sounds com a variável name passada como parâmetro da função e a extensão de arquivo ".mp3", de modo que a cor passada como argumento via "name" coincidirá com o nome do arquivo de áudio.
+    *executa o método play para reproduzir o som.
+linha 83: exibe a função startOver, cujas ações são voltadas a zerar as variáveis level, gamePattern e started aos seus valores iniciais.
+   
